@@ -1,16 +1,19 @@
 body {
   margin: 0;
+    width: 1500px;
 }
-
+.container {
+ margin-top: 0px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 50px;
+}
 header {
   padding-top: 35px;
   padding-bottom: 20px;
 }
 
-.container {
-  width: 1110px;
-  margin: 0px 200px 0px 200px;
-}
+
 
 .heading hr {
   float: left;
@@ -67,8 +70,10 @@ p {
 }
 
 .article1 {
+  width: 100%;
   margin-top: 20px;
   margin-bottom: 50px;
+  margin-right: 200px;
 }
 
 .article1 .text {
@@ -156,39 +161,36 @@ p {
 
 }
 .former{
+
   padding-top: 100px;
   padding-bottom: 100px;
-  margin: 50px 200px 0px 175px;
+  padding-left: 170px;
+  padding-right: 200px;
+
+  /* margin: 50px 200px 0px 175px; */
 overflow: hidden;
 }
-
 .formImg{
   width: 30%;
   float :left;
   box-sizing: border-box;
 }
-.formPart{
-  font-size: 1.3em;
-  padding-left: 150px;
-  padding-right: 100px;
-  width: 70%;
-  float :left;
-  box-sizing: border-box;
+.formObj{
+ max-width: 70%;
+  font-size: 1.2em;
+  padding-left: 100px;
+  padding-right: 0px;
+   float :left;
+   box-sizing: border-box;
+ }
 
-}
-.formPart h1{
-  font-family: 'DM Serif Text', serif;
-  font-size: 2px;
-}
 .formImg img{
-  display: block;
-  max-width: 400px;
-  max-height: 800px;
-  width: 800px;
-  height: 470px;
+  width: 100%;
+  height: 500px;
   padding-left: 20px;
 }
 .formObj h1{
+  width: 100%;
   font-weight: 700px;
   font-size: 3em;
 }
@@ -227,6 +229,7 @@ overflow: hidden;
 }
 
 .footer{
+  width: 100%;
   font-family: 'Oswald', sans-serif;
   height: 300px;
 }
